@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+*{
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+   
+  width: 100%;
+  height: auto;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ background-image:linear-gradient(to right,#e04343,#da2c2c,#ff4463,#fa4d4d);
+ background-size:200% 250%;
+ animation-name:ima;
+ animation-duration: 5s;
+ animation-direction: alternate;
+ animation-fill-mode:forwards;
+ animation-iteration-count: infinite;
+ flex-wrap: wrap;
+
+}
+@keyframes ima{
+    0%{
+        background-position-y:220%;
+    }
+ 
+    100%{
+        background-position-y:250%;
+    }
+}
+header img{
+  max-width: 68px;
+}
+ header li{
+     display: inline-block;
+     margin: 10px;
+ }
+ header a{
+     text-decoration: none;
+     color:black;
+     font-weight: bold;
+     transition-duration:.1s;
+ }
+ header a:hover{
+     color:white;
+     font-size: 17px;
+ }
+ .con{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin-top: 10px;
+    justify-content: center;
+
+
+   
+     
+ }
+ .con img{
+     width: 90px;
+     margin-bottom: 10px;
+ }
+
+ section.conteiner{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+  
+     flex-wrap: wrap;
+    
+     
+ }
+.conteiner  img{
+    width: 300px;
+    margin-left:24px;
+}
+.conteiner  p{
+   width: 350px;
+   
+   text-align: center;
+   font-family:cursive;
+}
+.conteiner h4{
+    text-align: center;
+}
+.conteiner h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+.conteiner .img{
+    margin-left: 7px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 7px;
+    transition-duration: .10s;
+}
+.conteiner .img:hover{
+    border:3px solid blue;
+
+}
+aside{
+    width: 100%;
+    display: flex;
+    height:200px;
+    background-color: black;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+aside p{
+    color :white;
+    font-size: 20pt;
+    text-align: center;
+    text-transform:uppercase;
+    justify-content: center;
+}
+aside a{
+    border-top: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: none;
+    width: 150px;
+    text-align: center;
+    border: 1px solid white;
+    padding: 11px;
+    margin: 0px auto 0px auto;
+    transition-duration: .5s;
+    border-radius: 10px;
+}
+aside a:hover{
+    background-color: rgb(223, 30, 30);
+}
+footer{
+    display: flex;
+  align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 85px;
+
+}
+footer img{
+    width:80px;
+}
+
+#check{
+    display:none;
+}
+.men{
+
+ float:right;
+ width: 80px;
+}
+.men img{
+    width: 40px;
+    display: none;
+}
+
+@media(max-width:600px){
+    .men img{
+        display: block;
+    }
+    header{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: rgba(54, 178, 235, 0.726);
+
+    }
+    header li{
+        display:block;
+    }
+    header nav ol{
+        top:25px;
+        position:fixed;
+        background-color: rgb(56, 136, 211);
+        left: -100%;
+        transition-duration: .4s;
+        width: 100%;
+        margin-top:15px;
+        color: black;
+        font-size: 25pt;
+        height: 100vh;
+        text-align: center;
+        padding: 15px;
+    
+       
+       
+      
+        
+    }
+    header nav ol a:hover{
+        color:white;
+
+    }
+    header img{
+        display:none;
+        
+
+    }
+   #check:checked~nav ol{
+    
+    left:0; 
+   
+   }
+   header  a:hover{
+       font-size: 30pt;
+       
+   }
+   header li{
+       padding: 30px;
+   
+       border: 3px solid white;
+       border-radius: 10px;
+       margin-top:20px;
+   }
+   header li:hover{
+       box-sizing: border-box;
+       background-color: rgba(0,0,0,0.5);
+   }
+
+}
+.con h3{
+    font-size:10pt;
+
+}
+aside p{
+    font-size:12pt;
+}

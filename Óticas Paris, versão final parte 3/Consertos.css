@@ -1,0 +1,137 @@
+.u-section-1 {
+  min-height: 100px;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 760px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 20px 913px 0 0;
+}
+
+.u-section-1 .u-gallery-1 {
+  margin-top: 30px;
+  margin-bottom: 0;
+  height: 526px;
+  margin-left: 0;
+}
+
+.u-section-1 .u-carousel-indicators-1 {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+}
+
+.u-section-1 .u-back-image-1 {
+  object-position: 50% 64.2%;
+}
+
+.u-section-1 .u-over-slide-1 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-1 .u-back-image-2 {
+  object-position: 50% 59.45%;
+}
+
+.u-section-1 .u-over-slide-2 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-1 .u-back-image-3 {
+  object-position: 50% 71.3%;
+}
+
+.u-section-1 .u-over-slide-3 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-1 .u-over-slide-4 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-1 .u-back-image-5 {
+  object-position: 50% 11.12%;
+}
+
+.u-section-1 .u-over-slide-5 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-1 .u-back-image-6 {
+  object-position: 50% 12.24%;
+}
+
+.u-section-1 .u-over-slide-6 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-1 .u-carousel-control-1 {
+  position: absolute;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  background-image: none;
+}
+
+.u-section-1 .u-carousel-control-2 {
+  position: absolute;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background-image: none;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 37px auto 53px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 713px;
+  }
+
+  .u-section-1 .u-gallery-1 {
+    margin-left: initial;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 493px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 313px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 113px;
+  }
+
+  .u-section-1 .u-gallery-1 {
+    height: 497px;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-carousel-indicators-1 {
+    bottom: -10px;
+  }
+}

@@ -1,0 +1,129 @@
+.u-section-1 {
+  background-image: url("images/0d0881cfcd7fa259623f6cc1192d590eb91869643cdd3f9c8ae7116d75eefb3a081180872cc2625326e31fab33c1ff9250da83799fe14cd322cfc2_1280.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 700px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 20px 682px 0 0;
+}
+
+.u-section-1 .u-gallery-1 {
+  width: 1140px;
+  height: 525px;
+  margin: 30px auto 60px 0;
+}
+
+.u-section-1 .u-carousel-indicators-1 {
+  position: absolute;
+  bottom: 10px;
+}
+
+.u-section-1 .u-over-slide-1 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-1 .u-back-image-2 {
+  object-position: 50% 18.38%;
+}
+
+.u-section-1 .u-over-slide-2 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-1 .u-over-slide-3 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-1 .u-over-slide-4 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-1 .u-over-slide-5 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-1 .u-over-slide-6 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-1 .u-carousel-control-1 {
+  position: absolute;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  background-image: none;
+}
+
+.u-section-1 .u-carousel-control-2 {
+  position: absolute;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background-image: none;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 577px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 482px;
+  }
+
+  .u-section-1 .u-gallery-1 {
+    width: 940px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 442px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 262px;
+  }
+
+  .u-section-1 .u-gallery-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 332px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 82px;
+  }
+
+  .u-section-1 .u-gallery-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 209px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-gallery-1 {
+    width: 340px;
+  }
+}
